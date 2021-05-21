@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(banner.jpg) ;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float: right;
+    list-style-type:none ;
+    margin-top: 20px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration:none;
+    color: rgb(224,255,255);
+    padding: 5px 30px;
+    border: 2px solid transparent;
+
+}
+
+ul li a:hover{
+    background-color: rgb(231, 171, 17);
+    color: black;
+    transition: 0.6s ease;
+}
+
+ul li.active a{
+    background-color: rgb(224,255,255);
+    color: black;
+}
+
+.logo img{
+    float: left;
+    width:300px;
+    height:100px ;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top:30%;
+    left:31%;
+    transform: translate(-50%-50%);
+}
+
+.title h2{
+    color: rgb(223,25,25);
+    font-size:50px;
+}
+
+.button{
+    position: absolute;
+    top:45%;
+    left:43.5%;
+    transform: translate(-50%-50%);
+}
+.button1{
+    position: absolute;
+    top:55%;
+    left:42%;
+    transform: translate(-50%-50%);
+}
+.btn{
+    border: 2px solid  rgb(224,255,255);
+    padding: 10px 30px;
+    color:  rgb(224,255,255);
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btn:hover{
+    background-color: rgb(224,255,255);
+    color: black;
+    transition: 0.6s ease;
+}
